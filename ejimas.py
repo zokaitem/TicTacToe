@@ -1,4 +1,3 @@
-from lenta import *
 
 def ejimas(lenta, simbolis):
     while True:

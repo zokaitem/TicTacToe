@@ -1,7 +1,10 @@
 
-lenta = ['_', '_', '_',
-         '_', '_', '_',
-         '_', '_', '_']
+def sukurti_lenta():
+    return ['_', '_', '_',
+            '_', '_', '_',
+            '_', '_', '_']
+
+
 def vaizduoti_lenta(lenta):
     print('---------')
     print(lenta[0], lenta[1], lenta[2])
