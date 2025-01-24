@@ -1,11 +1,17 @@
 
 def sukurti_lenta():
+    """
+    grąžina tuščią lentą kiekvieno naujo žaidimo pradžiai
+    """
     return ['_', '_', '_',
             '_', '_', '_',
             '_', '_', '_']
 
 
 def vaizduoti_lenta(lenta):
+    """
+    parodo dabartinę lentos būseną žaidimo eigoje
+    """
     print('---------')
     print(lenta[0], lenta[1], lenta[2])
     print(lenta[3], lenta[4], lenta[5])

@@ -1,5 +1,13 @@
 
 def ejimas(lenta, simbolis):
+    """
+    prašo žaidėjo įvesti skaičių, atitinkantį jo ėjimą;
+    patikrina, ar pasirinktas langelis užimtas ir prašo įvesti kitą pasirinkimą, jei taip;
+    priima parametrus lenta ir simbolis:
+    :param lenta: dabartinė žaidimo lenta, kuri parodo, kurios pozicijos jau užimtos
+    :param simbolis: žaidėjo, kuris atlieką šį ėjimą, simbolis (X arba O).
+    :return: lentos indeksas, atitinkantis žaidėjo pasirinktą ėjimą
+    """
     while True:
         try:
             eiti = int(input(f"Žaidėjau {simbolis}, įveskite skaičių nuo 1 iki 9: "))

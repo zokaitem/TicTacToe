@@ -4,6 +4,12 @@ from ejimas import ejimas
 from laimejimas import laimejimas
 
 def main():
+    """
+    Pagrindinė funkcija, apjungianti visas kitas į vieną logiką ir leidžianti vykti žaidimui.
+    Žaidėjai paeiliui įveda savo ėjimus, sistema tikrina, kas vyksta su lenta po kiekvieno ėjimo.
+    Žaidimas tęsiasi, kol vienas iš žaidėjų laimi, ar žaidimas baigiasi lygiosiomis.
+    Žaidimo pabaigoje žaidėjų pasiteiraujama, ar norėtų pakartoti.
+    """
     zaidejas1 = 0
     zaidejas2 = 0
 
