@@ -1,7 +1,7 @@
 
 def laimejimas(lenta):
     """
-    funkcija tikrina, ar vienas iš žaidėjų laimėjo
+    Funkcija tikrina, ar vienas iš žaidėjų laimėjo;
     :param lenta: žaidimo lenta, kurioje yra 9 langeliai, kiekvienas gali būti užpildytas
     simboliu 'X' arba 'O', arba būti tuščias
     :return: jei randama laiminti kombinacija, grąžinamas laimėtojo simbolis 'X' arba 'Y;
